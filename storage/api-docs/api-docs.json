@@ -1,0 +1,70 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Tray apio",
+        "version": "0.1"
+    },
+    "servers": [
+        {
+            "url": "http://sh.com",
+            "description": "L5 Swagger OpenApi dynamic host server"
+        },
+        {
+            "url": "/home/vagrant/code/smurfheaven/app/Http/Controllers"
+        }
+    ],
+    "paths": {
+        "/api/trayData": {
+            "get": {
+                "tags": [
+                    "tray"
+                ],
+                "summary": "auth",
+                "description": "TBD: get auth for tray app with tokens",
+                "operationId": "App\\Http\\Controllers\\ApiController::index",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Bad request"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "tray"
+                ],
+                "summary": "Add a new packet from LCU",
+                "description": "TBD",
+                "operationId": "addPacket",
+                "requestBody": {
+                    "request": "Traio",
+                    "description": "Sample LCU data request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "../schemas/IncomingPackets.json"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "202": {
+                        "description": "Ok"
+                    },
+                    "405": {
+                        "description": "Invalid input"
+                    },
+                    "503": {
+                        "description": "General error"
+                    },
+                    "403": {
+                        "description": "TBD: Auth"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+  "type": "object",
+  "properties": {
+    "unknownItemSets": {
+      "type": "object",
+      "properties": {
+        "24": {
+          "type": "object",
+          "properties": {
+            "81be26a0-a329-11e9-af6e-210c6e278310": {
+              "type": "object",
+              "properties": {
+                "_json": {
+                  "type": "object",
+                  "properties": {
+                    "associatedChampions": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer",
+                        "format": "int32",
+                        "example": "24"
+                      }
+                    },
+                    "associatedMaps": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "blocks": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "hideIfSummonerSpell": {
+                            "type": "string",
+                            "example": ""
+                          },
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "count": {
+                                  "type": "integer",
+                                  "format": "int32",
+                                  "example": "1"
+                                },
+                                "id": {
+                                  "type": "string",
+                                  "example": "1054"
+                                }
+                              }
+                            }
+                          },
+                          "showIfSummonerSpell": {
+                            "type": "string",
+                            "example": ""
+                          },
+                          "type": {
+                            "type": "string",
+                            "example": "New Block"
+                          }
+                        }
+                      }
+                    },
+                    "map": {
+                      "type": "string",
+                      "example": "any"
+                    },
+                    "mode": {
+                      "type": "string",
+                      "example": "any"
+                    },
+                    "preferredItemSlots": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "sortrank": {
+                      "type": "integer",
+                      "format": "int32",
+                      "example": "0"
+                    },
+                    "startedFrom": {
+                      "type": "string",
+                      "example": "blank"
+                    },
+                    "title": {
+                      "type": "string",
+                      "example": "New Item Set"
+                    },
+                    "type": {
+                      "type": "string",
+                      "example": "custom"
+                    },
+                    "uid": {
+                      "type": "string",
+                      "example": "81be26a0-a329-11e9-af6e-210c6e278310"
+                    }
+                  }
+                },
+                "champions": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": "24"
+                  }
+                },
+                "id": {
+                  "type": "string",
+                  "example": "81be26a0-a329-11e9-af6e-210c6e278310"
+                },
+                "maps": {
+                  "type": "array",
+                  "items": {}
+                },
+                "mode": {
+                  "type": "string",
+                  "example": "any"
+                },
+                "name": {
+                  "type": "string",
+                  "example": "New Item Set"
+                },
+                "slots": {
+                  "type": "array",
+                  "items": {}
+                },
+                "type": {
+                  "type": "string",
+                  "example": "custom"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

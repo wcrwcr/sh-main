@@ -1,0 +1,102 @@
+{
+  "type": "object",
+  "properties": {
+    "summoner": {
+      "type": "object",
+      "properties": {
+        "_json": {
+          "type": "object",
+          "properties": {
+            "accountId": {
+              "type": "integer",
+              "format": "int64",
+              "example": "2244089108263872"
+            },
+            "displayName": {
+              "type": "string",
+              "example": "why u afk13"
+            },
+            "internalName": {
+              "type": "string",
+              "example": "whyuafk13"
+            },
+            "percentCompleteForNextLevel": {
+              "type": "integer",
+              "format": "int32",
+              "example": "0"
+            },
+            "profileIconId": {
+              "type": "integer",
+              "format": "int32",
+              "example": "4657"
+            },
+            "puuid": {
+              "type": "string",
+              "example": "64b3518e-9ad7-52c4-b7cd-bef3ac2f5f4e"
+            },
+            "rerollPoints": {
+              "type": "object",
+              "properties": {
+                "currentPoints": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": "0"
+                },
+                "maxRolls": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": "2"
+                },
+                "numberOfRolls": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": "0"
+                },
+                "pointsCostToRoll": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": "250"
+                },
+                "pointsToReroll": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": "250"
+                }
+              }
+            },
+            "summonerId": {
+              "type": "integer",
+              "format": "int32",
+              "example": "129110579"
+            },
+            "summonerLevel": {
+              "type": "integer",
+              "format": "int32",
+              "example": "48"
+            },
+            "xpSinceLastLevel": {
+              "type": "integer",
+              "format": "int32",
+              "example": "0"
+            },
+            "xpUntilNextLevel": {
+              "type": "integer",
+              "format": "int32",
+              "example": "0"
+            }
+          }
+        },
+        "id": {
+          "type": "integer",
+          "format": "int32",
+          "example": "129110579"
+        },
+        "name": {
+          "type": "integer",
+          "format": "int32",
+          "example": "4657"
+        }
+      }
+    }
+  }
+}
